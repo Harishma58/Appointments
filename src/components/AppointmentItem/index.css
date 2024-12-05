@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.listItem {
+  border: 1px solid #b5b7c4;
+  border-radius: 7px;
+  height: 90px;
+  width: 250px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 20px;
+  flex-grow: 1;
+}
+.cont1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.nameItem {
+  font-family: 'roboto';
+  font-size: 16px;
+  color: #171f46;
+  font-weight: bold;
+}
+.dateItem {
+  font-family: 'roboto';
+  font-size: 15px;
+  color: #b5b7c4;
+}
+.startButton{
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.imageItem {
+  width: 20px;
+  height: 20px;
+}
